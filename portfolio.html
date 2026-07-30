@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Emmanuel Inde — Commission Scout Application</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #12121C;
+    --surface: #1B1B29;
+    --line: #2C2C3E;
+    --text: #EDEDF4;
+    --text-dim: #9A9AB0;
+    --amber: #F2B84B;
+    --cyan: #4FE3C1;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+  }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 24px; }
+
+  header.hero { padding: 72px 0 48px; }
+  .bar { height: 4px; width: 64px; border-radius: 4px; background: var(--amber); margin-bottom: 28px; }
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(30px, 6vw, 42px);
+    font-weight: 600;
+    line-height: 1.14;
+    letter-spacing: -0.01em;
+  }
+  h1 .accent { color: var(--amber); }
+  .lede { margin-top: 18px; font-size: 17px; color: var(--text-dim); max-width: 52ch; }
+
+  section { padding: 36px 0; border-top: 1px solid var(--line); }
+  .section-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 18px; }
+  .section-head .idx { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--text-dim); }
+  .section-head h2 { font-family: 'Space Grotesk', sans-serif; font-size: 21px; font-weight: 600; }
+
+  .proof-item { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .proof-item:last-child { border-bottom: none; }
+  .proof-num { font-family: 'IBM Plex Mono', monospace; color: var(--amber); font-size: 13px; min-width: 24px; }
+  .proof-text strong { color: var(--text); }
+  .proof-text { color: var(--text-dim); font-size: 14.5px; }
+
+  .method-list { color: var(--text-dim); font-size: 14.5px; }
+  .method-list li { margin-bottom: 8px; }
+
+  .vr-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 14.5px;
+  }
+  .vr-line .role { color: var(--text-dim); }
+  .vr-line .val { font-family: 'IBM Plex Mono', monospace; color: var(--cyan); font-size: 13px; }
+
+  .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .skill-tags span {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    padding: 7px 12px;
+    border-radius: 100px;
+    border: 1px solid var(--line);
+    color: var(--text-dim);
+  }
+
+  footer { padding: 36px 0 60px; border-top: 1px solid var(--line); color: var(--text-dim); font-size: 14px; }
+  footer .name { font-family: 'Space Grotesk', sans-serif; color: var(--text); font-size: 17px; margin-bottom: 6px; }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="bar"></div>
+    <div class="eyebrow">Emmanuel Inde — Applying for Commission Scout</div>
+    <h1>I already find and close <span class="accent">clients</span> for a living.</h1>
+    <p class="lede">Running an active outreach pipeline right now — sourcing leads with no existing digital presence, pitching them professionally, and closing paid work. Same core skill this role needs, different market.</p>
+  </header>
+
+  <section>
+    <div class="section-head">
+      <span class="idx mono">01</span>
+      <h2>Why I'd make a good Scout</h2>
+    </div>
+    <div class="proof-item">
+      <div class="proof-num mono">→</div>
+      <div class="proof-text"><strong>Active lead-sourcing pipeline.</strong> I identify businesses with no web presence, research them, and reach out directly — the exact motion of spotting a studio or creator that needs commission work.</div>
+    </div>
+    <div class="proof-item">
+      <div class="proof-num mono">→</div>
+      <div class="proof-text"><strong>Comfortable closing, not just introducing.</strong> I set rates, scope, and turnaround upfront with prospects — I understand what makes a lead worth bringing in versus a dead end.</div>
+    </div>
+    <div class="proof-item">
+      <div class="proof-num mono">→</div>
+      <div class="proof-text"><strong>Embedded in Roblox dev spaces.</strong> I'm building my own Roblox project, so I already speak the language of studios, commissions, and what clients actually ask for.</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <span class="idx mono">02</span>
+      <h2>How I source and pitch leads</h2>
+    </div>
+    <ul class="method-list">
+      <li>Search relevant channels (maps, social platforms, community spaces) for prospects matching a clear profile</li>
+      <li>Reach out with a short, professional, personalized message — never a copy-paste blast</li>
+      <li>Track every contact and follow up once, at the right interval, without being pushy</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <span class="idx mono">03</span>
+      <h2>Also building</h2>
+    </div>
+    <div class="vr-line">
+      <span class="role">Voidrunner — original Roblox combat-runner, full 15-section GDD</span>
+      <span class="val">on request</span>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <span class="idx mono">04</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skill-tags">
+      <span>Lead sourcing</span>
+      <span>Cold outreach</span>
+      <span>Client scoping & rates</span>
+      <span>Follow-up & pipeline tracking</span>
+      <span>Roblox dev community</span>
+    </div>
+  </section>
+
+  <footer>
+    <div class="name">Emmanuel Inde</div>
+    <div>Reach me on Discord — happy to walk through my outreach process or share examples anytime.</div>
+  </footer>
+
+</div>
+
+</body>
+</html>
